@@ -1,0 +1,52 @@
+.el-row {
+  margin-top: 20px;
+}
+
+.BaseCard .el-card {
+  margin-bottom: 13px;
+}
+
+.BaseCard .el-card__body {
+  padding: 0px;
+}
+
+.BaseCard .el-card .card-image {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: red;
+  overflow: hidden;
+}
+
+.BaseCard .el-card .card-image img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.BaseCard .el-card .card-content {
+  padding: 16px;
+}
+
+.CheckboxTypes .el-checkbox, .CheckboxTypes .el-checkbox + .el-checkbox {
+  display: block;
+  margin: 0;
+}
+
+.InputSearch.el-input {
+  width: 200px;
+}
+
+.InputSearch.el-input .el-input__inner {
+  display: inline;
+  width: inherit;
+}
+
+.text-truncate {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=main.css.map */

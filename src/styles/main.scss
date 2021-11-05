@@ -1,0 +1,59 @@
+.el-row {
+  margin-top: 20px;
+}
+
+
+// CARDS
+.BaseCard {
+   .el-card {
+        margin-bottom: 13px;
+        &__body {
+            padding: 0px;
+        }
+        .card-image {
+            display: block;
+            width: 100%;
+            height: 150px;
+            background: red;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+        .card-content {
+            padding: 16px;
+        }
+    } 
+}
+
+.CheckboxTypes {
+    .el-checkbox , .el-checkbox+.el-checkbox {
+        display: block;
+        margin: 0;
+    }
+}
+
+.InputSearch {
+     &.el-input {
+       width: 200px;
+        .el-input__inner {
+            display: inline;
+            width: inherit;
+        }
+    }
+}
+
+
+
+
+.text-truncate {
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
